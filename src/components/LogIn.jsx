@@ -4,7 +4,7 @@ import GoogleButton from 'react-google-button'
 import {auth} from "../Firebase"
 
 const style = {
-    container: `flex justify-center`
+    container: `flex justify-center `
 }
 
 

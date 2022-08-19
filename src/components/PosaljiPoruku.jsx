@@ -5,9 +5,9 @@ import {addDoc, collection, serverTimestamp} from "firebase/firestore"
 
 const style = {
 
-    container:`h-14 w-full max-w-[728px]  flex text-xl   bottom-0`,
-    input: `w-full text-sm p-3 bg-gray-900 text-white outline-none border-none rounded-bl-3xl`,
-    btn:  `w-[20%] bg-green-700 rounded-br-3xl text-white text-base`
+    container:`h-14 w-full max-w-[728px]  flex text-xl absolute   bottom-0`,
+    input: `w-full text-sm p-3 bg-gray-700 text-white outline-none border-none rounded-bl-3xl`,
+    btn:  `w-[20%] bg-pink-700 rounded-br-3xl text-white text-base`
 
 }
 
@@ -29,6 +29,7 @@ const PosaljiPoruku = () => {
             timestamp: serverTimestamp()  
          })
          setInput("");
+   
       
        
      }

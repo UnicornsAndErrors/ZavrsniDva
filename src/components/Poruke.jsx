@@ -6,7 +6,7 @@ import { auth } from '../Firebase';
 const style = {
     poruka: `flex items-center shadow-xl m-4 py-2 px-3 rounded-tl-full rounded-tr-full`,
     ime: `absolute mt-[-4rem] text-gray-600 text-xs`,
-    poslano: `bg-[#395dff] text-white flex-row-reverse text-end float-right rounded-bl-full`,
+    poslano: `bg-purple-500 text-white flex-row-reverse text-end float-right rounded-bl-full text-xs`,
     primljeno: `bg-[#e5e5ea] text-black float-left`,
   };
 
